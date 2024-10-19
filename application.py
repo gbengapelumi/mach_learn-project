@@ -1,8 +1,6 @@
 ##Just for deployment purpoes, that is why I created this file, it is same as what is inside app.py, but at the I removed the "debug=True"
 
 from flask import Flask, request, render_template
-import numpy as np
-import pandas as pd
 
 
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
